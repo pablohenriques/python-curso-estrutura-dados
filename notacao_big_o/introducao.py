@@ -1,7 +1,4 @@
 # big O(n), 11 passos
-import timeit
-
-
 def soma_simples(n_termos):
     soma = 0
     for i in range(n_termos + 1):

@@ -22,7 +22,7 @@ class ListaEncadeada:
         self.primeiro = novo
 
     def mostar(self):
-        if self.primeiro == None:
+        if self.primeiro is None:
             print('Lista está vazia')
             return None
 
@@ -30,6 +30,7 @@ class ListaEncadeada:
         while atual is not None:
             atual.mostra_no()
             atual = atual.proximo
+        return None
 
     def excluir_inicio(self):
         if self.primeiro is None:
